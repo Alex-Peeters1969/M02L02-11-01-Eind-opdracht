@@ -1,0 +1,49 @@
+.block {
+  display: block;
+  width: 400px;
+  height: 545px;
+  margin: 50px auto;
+  position: relative;
+  background-color: #c3cfe2;
+  padding: 10px 10px;
+
+  &__text {
+    width: 98%;
+    height: 80%;
+    margin: auto auto;
+    background-color: #fff;
+    border-radius: 25px 25px 0px 0px;
+  }
+  &__header{
+    text-align: justify;
+    padding: 60px;
+    font-size: 22px;
+  }
+  &__footer-text {
+    display: block;
+    width: 352px;
+    height: 150px;
+    margin: 0% auto;
+    position: relative;
+    background-color: #686de0;
+    color: white;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+  }
+  &__footer-text{
+    padding: 20px;
+  }
+  &__img{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    margin-bottom: -10px;
+    border-radius: 50%;
+    border-style: double
+  }
+  h3{
+    color: lightblue
+  }
+
+}
